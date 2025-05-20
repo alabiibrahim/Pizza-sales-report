@@ -66,6 +66,8 @@ Here is a list of appropriate chart visuals used answering key questions.
 6.	Bar chart
 7.	Slicers
 
+![https://github.com/alabiibrahim/Pizza-sales-report](/blob/main/assets/images/Pizza%20report%201.PNG)
+
 # Development
 
 Here’s a step by step guide on how the data was approached 
