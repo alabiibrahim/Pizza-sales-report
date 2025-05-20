@@ -1,4 +1,4 @@
-# SQL to Power BI - Data Portfolio
+# SQL to Power BI Interactive Dashboard
 
 ![Dasboard design](assets/images/Pizza%20sales%20gif%20.gif)
 
