@@ -68,6 +68,8 @@ Here is a list of appropriate chart visuals used answering key questions.
 
 ![Dasboard design](assets/images/Pizza%20report%201.PNG)
 
+![Dashboard design](assets/images/Pizza%20report%202.PNG)
+
 # Development
 
 Here’s a step by step guide on how the data was approached 
