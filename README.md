@@ -1,29 +1,28 @@
 # SQL to Power BI - Data Portfolio
 
 
-Hi, Welcome to my portfolio
-
 # Table of Contents
 
--[Project brief](#project brief)
+
+-[Project brief](#Project-brief)
 -[Objective](#Objective)
--[Questions to Answer](#Questions to answer)
--[Data source](#Data source)
+-[Questions to Answer](#Questions-to-Answer)
+-[Data source](#Data-source)
 -[Tools](#Tools)
--[Dashboard design charts](# Dashboard design chart)
--[Development] (#Developments)
--[Data processing / Transformation](#Data processing/ Transformation)
--[Findings](# Findings)
+-[Dashboard design charts](#Dashboard-design-charts)
+-[Development](#Developments)
+-[Data processing / Transformation](#Data-processing-Transformation)
+-[Findings](#Findings)
 -[Recommendations](#Recommendations)
 
 
-# PROJECT BRIEF 
+# Project brief
 - Pizza Sales Performance Analysis
 
-# OBJECTIVE
+# Objective
 - The goal is to analyze this data to gain insights into the effectiveness of pizza sales, optimize best performing pizza category and size to improve future market strategies.
 
-# QUESTIONS TO ANSWER
+# Questions to answer
 
 1.	What is the total revenue generated from Pizza sales?
 2.	What is the average order value?
@@ -38,17 +37,18 @@ Hi, Welcome to my portfolio
 11.	Identify the least performing pizzas that generated the least revenue?
 12.	Find the pizza with the second highest quantity sold.
 
-# DATA SOURCE:
+# Data source
 
-#DataTutorials
+#Data-Tutorials
 
-## TOOLS
+## Tools
 | Tools | Purpose | 
+| --- | --- | 
 | SQL |  Cleaning, Transformation, Processing |
 | POWER BI | DAX Measures, Visualizations | 
 
-# DASHBOARD DESIGN
-- Here is a list of different charts used in the dashboard for data storytelling so audience can have a quick grasp of the report.
+# Dashboard design
+- Here is a list of appropriate chart visuals used answering key questions.
 1.	Score cards
 2.	Column chart
 3.	Donut chart
@@ -57,7 +57,7 @@ Hi, Welcome to my portfolio
 6.	Bar chart
 7.	Slicers
 
-# DEVELOPMENT
+# Development
 -Here’s a step by step guide on how the data was approached 
 1.	Getting the data
 2.	Load data into SQL
@@ -191,7 +191,7 @@ ORDER BY RankQty DESC; --Second with the highest qty sold
 
 ```
 
-## FINDINGS
+## Findings
 
 1.	Classic pizza outshines every other pizzas with the highest order and revenue. Supreme made the second spot, while chicken and veggie have a slight difference between them.
 
@@ -206,7 +206,7 @@ ORDER BY RankQty DESC; --Second with the highest qty sold
 
 6.	Soppresata, Spinach, Calabrese, Mediterranean and Brie-carrie pizza performs the lowest.
 
-## RECOMMENDATIONS
+## Recommendations
 
 1.	Increase in production of Pizza with “L” size should be made priority as it performs the best.
 
