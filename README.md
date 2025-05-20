@@ -4,25 +4,25 @@
 # Table of Contents
 
 
--[Project brief](#Project-brief)
--[Objective](#Objective)
--[Questions to Answer](#Questions-to-Answer)
--[Data source](#Data-source)
--[Tools](#Tools)
--[Dashboard design charts](#Dashboard-design-charts)
--[Development](#Developments)
--[Data processing / Transformation](#Data-processing-Transformation)
--[Findings](#Findings)
--[Recommendations](#Recommendations)
+- [Project brief](#Project-brief)
+- [Objective](#Objective)
+- [Questions to Answer](#Questions-to-Answer)
+- [Data source](#Data-source)
+- [Tools](#Tools)
+- [Dashboard design charts](#Dashboard-design-charts)
+- [Development](#Developments)
+- [Data processing / Transformation](#Data-processing-Transformation)
+- [Findings](#Findings)
+- [Recommendations](#Recommendations)
 
 
 # Project brief
-- Pizza Sales Performance Analysis
+Pizza Sales Performance Analysis
 
-# Objective
-- The goal is to analyze this data to gain insights into the effectiveness of pizza sales, optimize best performing pizza category and size to improve future market strategies.
+## Objective
+The goal is to analyze the dataset to gain insights into the effectiveness of pizza sales, optimize best performing pizza category and size to improve future market strategies.
 
-# Questions to answer
+## Questions to answer
 
 1.	What is the total revenue generated from Pizza sales?
 2.	What is the average order value?
@@ -37,18 +37,27 @@
 11.	Identify the least performing pizzas that generated the least revenue?
 12.	Find the pizza with the second highest quantity sold.
 
-# Data source
+## Data source
+Here are the Data needed to achieve project goal
 
-#Data-Tutorials
+1.  Pizza name
+2.  Pizza category
+3.  Pizza size
+4.  Unit price
+5.  Total price
+6.  Quanity sold
+7.  Order date
 
 ## Tools
+
 | Tools | Purpose | 
 | --- | --- | 
-| SQL |  Cleaning, Transformation, Processing |
-| POWER BI | DAX Measures, Visualizations | 
+| SQL Server |  Cleaning, Transformation, Processing. |
+| POWER BI | DAX Measures, Visualizations. | 
 
-# Dashboard design
-- Here is a list of appropriate chart visuals used answering key questions.
+## Dashboard design
+
+Here is a list of appropriate chart visuals used answering key questions.
 1.	Score cards
 2.	Column chart
 3.	Donut chart
@@ -58,7 +67,9 @@
 7.	Slicers
 
 # Development
--Here’s a step by step guide on how the data was approached 
+
+Here’s a step by step guide on how the data was approached 
+
 1.	Getting the data
 2.	Load data into SQL
 3.	Clean and test with SQL
@@ -66,7 +77,13 @@
 5.	Generate Insights/ Findings
 6.	Give recommendations 
 
-### Data Processing / Transformation
+## Data Processing / Transformation
+
+The goal is to refine the dataset to ensure its clean and ready for analysis.
+
+- Only relevant columns should be retained.
+- All data types should be appropriate for the contents of each column.
+- No column should contain null values, indicating complete data for all records
 
 ```sql
 
@@ -205,6 +222,7 @@ ORDER BY RankQty DESC; --Second with the highest qty sold
 5.	Classic deluxe performs best, with Barbecue chicken, Hawaii pizza, Pepperoni pizza and Thai chicken having slight or no difference between them. 
 
 6.	Soppresata, Spinach, Calabrese, Mediterranean and Brie-carrie pizza performs the lowest.
+
 
 ## Recommendations
 
