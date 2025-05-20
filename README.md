@@ -1,5 +1,9 @@
 # SQL to Power BI - Data Portfolio
 
+![Dasboard design](assets/images/Pizza%20sales%20gif%20.gif)
+
+![Dasboard design](assets/images/Pizza%20sales%202gif%20.gif)
+
 
 # Table of Contents
 
