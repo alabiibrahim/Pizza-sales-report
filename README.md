@@ -208,10 +208,12 @@ ORDER BY Top5Revenue ASC;
 
 --12.	Find the pizza name with the second highest quantity sold
 
-SELECT TOP 2  pIZZA_NAME,  SUM(quantity) AS RankQty FROM Pizza_sales WHERE quantity < 
-(SELECT MAX(QUANTITY) FROM pizza_sales )  
-GROUP BY pizza_name
-ORDER BY RankQty DESC; --Second with the highest qty sold
+WITH TotalSales AS (SELECT pizza_name, SUM(quantity) AS TotalQty		
+ FROM Pizza_sales 
+ GROUP BY pizza_name) SELECT pizza_name,TotalQty			--Second with the highest qty sold
+						FROM (SELECT pizza_name, totalQty, 
+						DENSE_RANK() OVER (ORDER BY Totalqty DESC) AS QuantityRank FROM Totalsales ) AS RankedSales
+						WHERE QuantityRank = 2;
 
 
 ```
