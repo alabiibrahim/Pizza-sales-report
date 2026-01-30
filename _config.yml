@@ -1,7 +1,5 @@
-theme: minimal   # or whatever theme you’re using
-plugins:
-  - jekyll-include-cache
-
-# Add custom CSS
-include:
-  - assets/css/style.css
+title: Ibrahim
+description: Freelance Data Analyst
+theme: hacker   # or whatever theme you’re using
+show_downlaods: False
+logo: 
