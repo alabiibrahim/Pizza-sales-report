@@ -1,4 +1,7 @@
-title: Ibrahim
-logo: Pizza%20report%201.PNG
-show_downloads: False
-remote_theme: Midnight
+theme: minimal   # or whatever theme you’re using
+plugins:
+  - jekyll-include-cache
+
+# Add custom CSS
+include:
+  - assets/css/style.css
