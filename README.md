@@ -8,14 +8,14 @@
 # Table of Contents
 
 
-- [Project brief](#Project-brief)
+- [Project brief](#Projectbrief)
 - [Objective](#Objective)
 - [Questions to Answer](#Questions-to-Answer)
 - [Data source](#Data-source)
 - [Tools](#Tools)
-- [Dashboard design charts](#Dashboard-design-charts)
+- [Dashboard design](#Dashboard-design)
 - [Development](#Developments)
-- [Data processing / Transformation](#Data-processing-Transformation)
+- [Data processing](#Data-processing)
 - [Findings](#Findings)
 - [Recommendations](#Recommendations)
 
@@ -85,7 +85,7 @@ Here’s a step by step guide on how the data was approached
 5.	Generate Insights/ Findings
 6.	Give recommendations 
 
-## Data Processing / Transformation
+## Data Processing
 
 The goal is to refine the dataset to ensure its clean and ready for analysis.
 
@@ -192,6 +192,8 @@ SELECT TOP 5 pizza_name, SUM(total_price) AS Top5Revenue --Top 5 revenue
 FROM pizza_sales
 GROUP BY pizza_name
 ORDER BY Top5Revenue DESC;
+
+```
 
 ```sql
 
