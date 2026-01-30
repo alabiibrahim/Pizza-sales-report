@@ -1,5 +1,5 @@
 title: Ibrahim
 description: Freelance Data Analyst
-theme: hacker   # or whatever theme you’re using
+remote_theme: hacker   # or whatever theme you’re using
 show_downlaods: False
 logo: PizzaSalesReport.PNG 
